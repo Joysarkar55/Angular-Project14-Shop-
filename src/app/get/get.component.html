@@ -1,0 +1,11 @@
+<div *ngFor="let item of (response | async)">
+    <br>{{item.id}}
+    <div class="search">
+    {{item.price}}
+    {{item.description}}
+    {{item.category}}
+    <img src = {{item.image}}>
+    {{item.rating}}
+    {{item.rate}}
+    {{item.count}}
+</div>
